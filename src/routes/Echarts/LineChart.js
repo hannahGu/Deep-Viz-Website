@@ -244,7 +244,7 @@ export default class LineChartShow extends Basic {
         <p>基础折线图、折线堆积图、双Y坐标轴折线图、圆滑曲线图，极简曲线图等都可以使用本组件，并支持x轴缩放</p>
         <p className="container-title">代码示例</p>
         <p>点Title右侧箭头查看代码</p>
-        <Card noHovering>
+        <Card>
           <LineChart
             config={{
               x: { data: lineData.date },
@@ -297,7 +297,7 @@ ReactDOM.render(
           </div>
         </Card>
 
-        <Card noHovering>
+        <Card>
           <LineChart
             config={{
               title: '未来日期各图例的人数累积图',
@@ -364,7 +364,7 @@ ReactDOM.render(
           </div>
         </Card>
 
-        <Card noHovering>
+        <Card>
           <LineChart
             color={['#108EE9', '#C96DD8']}
             config={{
@@ -433,7 +433,7 @@ ReactDOM.render(
           </div>
         </Card>
 
-        <Card noHovering>
+        <Card>
           <LineChart
             color={['#2CA51A', '#0BBEFE']}
             config={{
@@ -518,7 +518,7 @@ ReactDOM.render(
           </div>
         </Card>
 
-        <Card noHovering>
+        <Card>
           <LineChart
             config={{
               x: { data: lineData.date, isXAxisShow: false },
