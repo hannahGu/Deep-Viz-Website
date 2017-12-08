@@ -81,7 +81,7 @@ export default class LineChartShow extends Basic {
         parameter: 'title',
         description: '非必需，设置Chart的标题，当有title时，legend会放在右边；推荐在组件外写title',
         type: 'String',
-        defaultValue: 'null',
+        defaultValue: '111111',
       },
       {
         parameter: 'subtitle',

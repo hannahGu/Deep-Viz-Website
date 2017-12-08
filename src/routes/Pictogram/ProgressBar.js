@@ -121,16 +121,12 @@ export default class ProgressBarShow extends Basic {
           <hr />
           <p className="sample-title">
             当月各项支出占比情况
-            <Icon
-              type="arrows-alt"
-              title="Show me the code"
-              onClick={this.onCodeToggleClick}
-            />
+            <Icon type="arrows-alt" title="Show me the code" onClick={this.onCodeToggleClick} />
           </p>
-          <p className="sample-desc"></p>
+          <p className="sample-desc" />
           <div className="code-container">
-            <Highlight className="JavaScript">{
-              `import { ProgressBar } from 'deep-viz';
+            <Highlight className="JavaScript">
+              {`import { ProgressBar } from 'deep-viz';
 const data = [
   { name: '吃', value: 1200, backgroundColor: '#2CA51A', },
   { name: '喝', value: 800, backgroundColor: '#0BBEFE', },
